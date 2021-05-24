@@ -12,4 +12,12 @@ export const NavListStyled = styled.nav`
   ul {
     display: flex;
   }
+
+  .classNeActiv {
+    color: #000280;
+  }
+
+  .classActive {
+    color: red;
+  }
 `;

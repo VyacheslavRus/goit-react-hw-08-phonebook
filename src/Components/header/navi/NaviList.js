@@ -10,7 +10,14 @@ const NavList = ({ location, auth }) => {
   return (
     <NavListStyled>
       <div>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          exact
+          className="classNeActiv"
+          activeClassName="classActive"
+          to="/"
+        >
+          Home
+        </NavLink>
       </div>
       <ul>
         {mainRoutes.map((item) => (

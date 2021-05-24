@@ -5,6 +5,7 @@ import { logOut } from "../../../redux/auth/authActions";
 const UserInfo = ({ displayName, auth }) => {
   const dispatch = useDispatch();
   const signOut = () => dispatch(logOut());
+  // с шопа содрал
   return auth ? (
     <>
       <div>

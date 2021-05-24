@@ -11,8 +11,8 @@ const NavListItem = ({ item, location, auth }) => {
               pathname: item.path,
               state: { from: location.pathname },
             }}
-            className="font-medium"
-            activeClassName="text-green-500"
+            className="classNeActiv"
+            activeClassName="classActive"
             exact={item.exact}
           >
             {item.name}
@@ -26,8 +26,8 @@ const NavListItem = ({ item, location, auth }) => {
               pathname: item.path,
               state: { from: location.pathname },
             }}
-            className="font-medium"
-            activeClassName="text-green-500"
+            className="classNeActiv"
+            activeClassName="classActive"
             exact={item.exact}
           >
             {item.name}
@@ -41,8 +41,8 @@ const NavListItem = ({ item, location, auth }) => {
               pathname: item.path,
               state: { from: location.pathname },
             }}
-            className="font-medium"
-            activeClassName="text-green-500"
+            className="classNeActiv"
+            activeClassName="classActive"
             exact={item.exact}
           >
             {item.name}
